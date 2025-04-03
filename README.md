@@ -40,11 +40,13 @@ fastfetch --colors-block-range-start 9 --colors-block-width 3
 
 If you upgrade your Fastfetch version to 2.40.0-1, there are some configuration differences from the previous version.
 In this version, the commands fastfetch --config groups and fastfetch --config minimal no longer work, meaning you will encounter an error like the one below.
-<img src="errors/image.png">
 
-You need to add this line to your .zshrc (if you are using Zsh) or .bashrc (if you are using Bash):
+<img src="errors/image.png" style="width:60%;height:60%">
 
-  fastfetch -c $HOME/.local/share/fastfetch/presets/groups.jsonc
-
+You need to add this line to your ~/.zshrc (if you are using Zsh) or ~/.bashrc (if you are using Bash):
+```sh
+    fastfetch -c $HOME/.local/share/fastfetch/presets/groups.jsonc
+```
 If you follow the tutorial provided earlier, everything should work fine. See the image below.
-<img src="errors/image2.png">
+
+<img src="errors/image2.png" style="width:60%;height:60%">
