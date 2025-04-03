@@ -35,3 +35,10 @@ fastfetch
 # or with additional options e.g.
 fastfetch --colors-block-range-start 9 --colors-block-width 3
 ```
+
+## Fastfetch (2.40.0-1) 
+ChatGPT said:
+
+If you upgrade your Fastfetch version to 2.40.0-1, there are some configuration differences from the previous version.
+In this version, the commands fastfetch --config groups and fastfetch --config minimal no longer work, meaning you will encounter an error like the one below.
+
